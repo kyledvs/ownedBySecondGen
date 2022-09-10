@@ -1,4 +1,45 @@
-html, body {
+
+
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300&display=swap');
+
+html, body, * {
     margin: 0;
     padding: 0;
+    font-family: 'Source Sans Pro', sans-serif;
 }
+.makulaHeaders {
+    font-size: 5.5vw;
+    color: aliceblue;
+    text-align: center;
+}
+.makulaHeadersTwo{
+    font-size: 1.5vw;
+    color: aliceblue;
+    text-align: center;
+}
+
+html, body { height: 100%; }
+
+.generalButton {
+    background-color: #3f51b5;
+    width: 20vw;
+    height: 5vh;
+    outline: none;
+    border: none;
+    border-radius: .2cm;
+}
+.generalForm {
+
+    background-color: #ffffff5e;
+    width: 20vw;
+    height: 5vh;
+
+    border-radius: .2cm;
+
+
+
+}
+.ccenter {
+    text-align: center;
+}
+
